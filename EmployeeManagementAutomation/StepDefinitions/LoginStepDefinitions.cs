@@ -37,7 +37,12 @@ namespace EmployeeManagementAutomation.StepDefinitions
                 Console.WriteLine("Then " + expectedText);
                 
             }
+            [Then(@"I should not get access to dashboard with error as '(.*)'")]
+            public void ThenIShouldNotGetAccessToDashboardWithErrorAs(string expectedError)
+            {
+                Console.WriteLine("Expected Error " + expectedError);
+            }
 
-        
+
     }
 }
