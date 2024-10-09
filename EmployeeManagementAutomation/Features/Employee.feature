@@ -6,7 +6,7 @@ I want to add, edit and delete the employee records
 
 Scenario Outline: AddValidEmployeeRecord
 Given I have browser with OrangeHRM application
-When I enter username as '<username'
+When I enter username as '<username>'
 And I enter password as '<password>'
 And I click on login
 And I click on PIM menu
